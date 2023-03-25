@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    font-size: large;
+}
+.container-navigation-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+}
+.titulo-navigation-bar{
+    text-align: center;
+    padding: 0.50%;
+    font-size: 3rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+}
+.container-navigation{
+    display: flex;
+    gap: 20px;
+}
+.itens{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.50%;
+}
+.home{
+    padding: 0 0 0 15px;
+    font-size: 1.0625rem;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1.875rem;
+}
+.container-main{
+    display: flex;
+    align-items: center;
+    padding: 8% 15%;
+}
+.post{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    padding: 1%;
+    text-align: center;
+    flex-direction: column;
+    gap: 80px;
+    border-radius: 7px;
+}
+.conteudo{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.titulo-do-post{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.topicos{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 0 0 3% 0;
+}
+.paragrafos{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 300;
+    font-size: 1.1875rem;
+}
+.rodapé{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+.paragrafo-footer{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    font-size: 3rem;
+}
